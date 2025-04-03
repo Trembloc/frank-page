@@ -1,3 +1,10 @@
 body{
-  background-color: orangered;
+  background-color: lightblue;
+}
+#pdf {
+  width: 85%;
+  height: 975px;
+}
+th, td {
+  padding: 5px;
 }
