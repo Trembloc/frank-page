@@ -1,10 +1,13 @@
+import { Link } from "react-router-dom";
 
 
 const Homilies = () => {
   return (
     <table>
       <tr>
-        <th>ADVENT</th>
+        <th>
+          <Link to="/Advent1">Advent 1</Link>
+        </th>
         <th>CHRISTMAS TIME</th>
         <th colspan="2">ORGINARY TIME</th>
         <th>FEAST DAYS</th>

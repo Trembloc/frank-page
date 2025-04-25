@@ -1,12 +1,12 @@
-import pdfUrl1A from '../../Homilies/Advent 1A.pdf'
-import pdfUrl1B from '../../Homilies/Advent1stB.pdf'
-import pdfUrl1Ba from '../../Homilies/Advent1stBa.pdf'
-import pdfUrl1C from '../../Homilies/Advent1stC.pdf'
-import pdfUrl1Ca from '../../Homilies/Advent1stCa.pdf'
-import pdfUrl1Cb from '../../Homilies/Advent1stCb.pdf'
+import pdfUrl1A from '../../../Homilies/Advent 1A.pdf'
+import pdfUrl1B from '../../../Homilies/Advent1stB.pdf'
+import pdfUrl1Ba from '../../../Homilies/Advent1stBa.pdf'
+import pdfUrl1C from '../../../Homilies/Advent1stC.pdf'
+import pdfUrl1Ca from '../../../Homilies/Advent1stCa.pdf'
+import pdfUrl1Cb from '../../../Homilies/Advent1stCb.pdf'
 
 
-const Test = () => {
+const Advent1 = () => {
   return (
     <>
     <section>
@@ -35,4 +35,4 @@ const Test = () => {
   )
 }
 
-export default Test;
+export default Advent1;
