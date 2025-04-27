@@ -15,19 +15,19 @@ const Advent4 = () => {
     <h2>4th Week of Advent: Year A 2 </h2>
     <iframe id="pdf" src={pdfUrl4Aa} frameborder="0"></iframe>
     <section>
-      <h2>4th Week of Advent: Year A 4</h2>
+      <h2>4th Week of Advent: Year A 3</h2>
       <iframe id="pdf" src={pdfUrl4Ab} frameborder="0"></iframe>
     </section>
     <section>
-      <h2>4th Week of Advent: Year A 4</h2>
+      <h2>4th Week of Advent: Year B 1</h2>
       <iframe id="pdf" src={pdfUrl4B} frameborder="0"></iframe>
     </section>
     <section>
-      <h2>4th Week of Advent: Year B 1</h2>
+      <h2>4th Week of Advent: Year B 2</h2>
       <iframe id="pdf" src={pdfUrl4Ba} frameborder="0"></iframe>
     </section>
     <section>
-      <h2>4th Week of Advent: Year B 2</h2>
+      <h2>4th Week of Advent: Year C </h2>
       <iframe id="pdf" src={pdfUrl4C} frameborder="0"></iframe>
     </section>
     </>
