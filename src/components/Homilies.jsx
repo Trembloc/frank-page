@@ -5,9 +5,7 @@ const Homilies = () => {
   return (
     <table>
       <tr>
-        <th>
-          <Link to="/Advent1">Advent 1</Link>
-        </th>
+        <th>ADVENT</th>
         <th>CHRISTMAS TIME</th>
         <th colspan="2">ORGINARY TIME</th>
         <th>FEAST DAYS</th>
@@ -15,7 +13,9 @@ const Homilies = () => {
         <th>OTHERS</th>
       </tr>
       <tr>
-        <td>Advent 1</td>
+        <td>
+          <Link to="/Advent1">Advent 1</Link>
+        </td>
         <td>Holy Family</td>
         <td>2nd</td>
         <td>19th</td>
@@ -24,7 +24,9 @@ const Homilies = () => {
         <td>Assumption</td>
       </tr>
       <tr>
-        <td>Advent 2</td>
+        <td>
+          <Link to="/Advent2">Advent 2</Link>
+        </td>
         <td>Epiphany</td>
         <td>3rd</td>
         <td>20th</td>
@@ -33,7 +35,9 @@ const Homilies = () => {
         <td>Birth of John the Baptist</td>
       </tr>
       <tr>
-        <td>Advent 3</td>
+        <td>
+          <Link to="/Advent3">Advent 3</Link>
+        </td>
         <td>Baptism of Lord</td>
         <td>4th</td>
         <td>21st</td>
@@ -42,7 +46,9 @@ const Homilies = () => {
         <td>Funerals</td>
       </tr>
       <tr>
-        <td>Advent 4</td>
+        <td>
+          <Link to="/Advent4">Advent 4</Link>
+        </td>
         <td>Christmas</td>
         <td>5th</td>
         <td>22nd</td>
