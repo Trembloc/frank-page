@@ -11,36 +11,38 @@ import pdfUrl2Cd from '../../../Homilies/Advent2ndCd.pdf'
 const Advent2 = () => {
   return (
     <>
-    <section>
-      <h2>2nd Week of Advent: Year A 1</h2>
-    <iframe id="pdf" src={pdfUrl2A} frameborder="0"></iframe>
-    </section>
-    <h2>2nd Week of Advent: Year A 2 </h2>
-    <iframe id="pdf" src={pdfUrl2Aa} frameborder="0"></iframe>
-    <section>
-      <h2>2nd Week of Advent: Year A 3</h2>
-      <iframe id="pdf" src={pdfUrl2Ab} frameborder="0"></iframe>
-    </section>
-    <section>
-      <h2>2nd Week of Advent: Year B</h2>
-      <iframe id="pdf" src={pdfUrl2B} frameborder="0"></iframe>
-    </section>
-    <section>
-      <h2>2nd Week of Advent: Year C 1</h2>
-      <iframe id="pdf" src={pdfUrl2C} frameborder="0"></iframe>
-    </section>
-    <section>
-      <h2>2nd Week of Advent: Year C 2</h2>
-      <iframe id="pdf" src={pdfUrl2Ca} frameborder="0"></iframe>
-    </section>
-    <section>
-      <h2>2nd Week of Advent: Year C 3</h2>
-      <iframe id="pdf" src={pdfUrl2Cb} frameborder="0"></iframe>
-    </section>
-    <section>
-      <h2>2nd Week of Advent: Year C 4</h2>
-      <iframe id="pdf" src={pdfUrl2Cd} frameborder="0"></iframe>
-    </section>
+      <section>
+        <h2>2nd Week of Advent: Year A 1</h2>
+        <iframe id="pdf" src={pdfUrl2A} frameborder="0"></iframe>
+      </section>
+      <section>
+        <h2>2nd Week of Advent: Year A 2 </h2>
+        <iframe id="pdf" src={pdfUrl2Aa} frameborder="0"></iframe>
+      </section>
+      <section>
+        <h2>2nd Week of Advent: Year A 3</h2>
+        <iframe id="pdf" src={pdfUrl2Ab} frameborder="0"></iframe>
+      </section>
+      <section>
+        <h2>2nd Week of Advent: Year B</h2>
+        <iframe id="pdf" src={pdfUrl2B} frameborder="0"></iframe>
+      </section>
+      <section>
+        <h2>2nd Week of Advent: Year C 1</h2>
+        <iframe id="pdf" src={pdfUrl2C} frameborder="0"></iframe>
+      </section>
+      <section>
+        <h2>2nd Week of Advent: Year C 2</h2>
+        <iframe id="pdf" src={pdfUrl2Ca} frameborder="0"></iframe>
+      </section>
+      <section>
+        <h2>2nd Week of Advent: Year C 3</h2>
+        <iframe id="pdf" src={pdfUrl2Cb} frameborder="0"></iframe>
+      </section>
+      <section>
+        <h2>2nd Week of Advent: Year C 4</h2>
+        <iframe id="pdf" src={pdfUrl2Cd} frameborder="0"></iframe>
+      </section>
     </>
   )
 }

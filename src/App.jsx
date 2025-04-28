@@ -6,7 +6,13 @@ import Advent1 from './components/homily-links/Advent1.jsx';
 import Advent2 from './components/homily-links/Advent2.jsx';
 import Advent3 from './components/homily-links/Advent3.jsx';
 import Advent4 from './components/homily-links/Advent4.jsx';
+import Allsaints from './components/homily-links/Allsaintsday.jsx';
+import Allsoulsday from './components/homily-links/Allsoulsday.jsx';
+import Ascensionsunday from './components/homily-links/Ascensionsunday.jsx';
+import Ashwednesday from './components/homily-links/Ashwednesday.jsx';
+import Assumption from './components/homily-links/Assumption.jsx';
 import { Routes, Route } from "react-router-dom";
+
 
 function App() {
 
@@ -23,6 +29,11 @@ function App() {
         <Route path="/Advent2" element={<Advent2 />} />
         <Route path="/Advent3" element={<Advent3 />} />
         <Route path="/Advent4" element={<Advent4 />} />
+        <Route path="/Allsaints" element={<Allsaints />} />
+        <Route path="/Allsoulsday" element={<Allsoulsday />} />
+        <Route path="/Ascension" element={<Ascensionsunday />} />
+        <Route path="/Ashwednesday" element={<Ashwednesday />} />
+        <Route path="/Assumption" element={<Assumption />} />
       </Routes>
     </>
   )

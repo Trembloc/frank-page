@@ -20,8 +20,12 @@ const Homilies = () => {
         <td>2nd</td>
         <td>19th</td>
         <td>Presentation of the Lord</td>
-        <td>Ash Wednesday</td>
-        <td>Assumption</td>
+        <td>
+          <Link to="/Ashwednesday">Ash Wednesday</Link>
+        </td>
+        <td>
+          <Link to="/Assumption">Assumption</Link>
+        </td>
       </tr>
       <tr>
         <td>
@@ -88,7 +92,9 @@ const Homilies = () => {
         <td></td>
         <td>9th</td>
         <td>26th</td>
-        <td>All Souls Day</td>
+        <td>
+          <Link to="/Allsoulsday">All Souls Day</Link>
+        </td>
         <td>Good Friday</td>
         <td></td>
       </tr>
@@ -106,7 +112,9 @@ const Homilies = () => {
         <td></td>
         <td>11th</td>
         <td>28th</td>
-        <td>All Saints Day</td>
+        <td>
+          <Link to="/Allsaints">All Saints</Link>
+        </td>
         <td>Palm Sunday</td>
         <td></td>
       </tr>
@@ -179,7 +187,9 @@ const Homilies = () => {
         <td></td>
         <td></td>
         <td></td>
-        <td>Ascension Sunday</td>
+        <td>
+          <Link to="/Ascension">Ascension Sunday</Link>
+        </td>
         <td></td>
       </tr>
     </table>
