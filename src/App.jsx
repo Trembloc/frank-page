@@ -11,6 +11,8 @@ import Allsoulsday from './components/homily-links/Allsoulsday.jsx';
 import Ascensionsunday from './components/homily-links/Ascensionsunday.jsx';
 import Ashwednesday from './components/homily-links/Ashwednesday.jsx';
 import Assumption from './components/homily-links/Assumption.jsx';
+import Baptismoflord from './components/homily-links/Baptismoflord.jsx';
+import Birthofjohnthebaptist from './components/homily-links/Birthofjohnthebaptist.jsx';
 import { Routes, Route } from "react-router-dom";
 
 
@@ -34,6 +36,8 @@ function App() {
         <Route path="/Ascension" element={<Ascensionsunday />} />
         <Route path="/Ashwednesday" element={<Ashwednesday />} />
         <Route path="/Assumption" element={<Assumption />} />
+        <Route path="/Baptism" element={<Baptismoflord />} />
+        <Route path="/Birth" element={<Birthofjohnthebaptist />} />
       </Routes>
     </>
   )

@@ -36,13 +36,17 @@ const Homilies = () => {
         <td>20th</td>
         <td>Pentacost Vigil</td>
         <td>1st Sunday of Lent</td>
-        <td>Birth of John the Baptist</td>
+        <td>
+          <Link to="/Birth">Birth of John the Baptist</Link>
+        </td>
       </tr>
       <tr>
         <td>
           <Link to="/Advent3">Advent 3</Link>
         </td>
-        <td>Baptism of Lord</td>
+        <td>
+          <Link to="/Baptism">Baptism of Lord</Link>
+        </td>
         <td>4th</td>
         <td>21st</td>
         <td>Pentacost Sunday</td>
