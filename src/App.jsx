@@ -13,6 +13,16 @@ import Ashwednesday from './components/homily-links/Ashwednesday.jsx';
 import Assumption from './components/homily-links/Assumption.jsx';
 import Baptismoflord from './components/homily-links/Baptismoflord.jsx';
 import Birthofjohnthebaptist from './components/homily-links/Birthofjohnthebaptist.jsx';
+import Holyfamily from './components/homily-links/Holyfamily.jsx';
+import Epiphany from './components/homily-links/Epiphany.jsx';
+import Christmas from './components/homily-links/Christmas.jsx';
+import Christmasmidnight from './components/homily-links/Christmasmidnight.jsx';
+import Christmasdawn from './components/homily-links/Christmasdawn.jsx';
+import Christmasvigil from './components/homily-links/Christmasvigil.jsx';
+import O2nd from './components/homily-links/O2nd.jsx';
+import O3rd from './components/homily-links/O3rd.jsx';
+import O4th from './components/homily-links/O4th.jsx';
+import O5th from './components/homily-links/O5th.jsx';
 import { Routes, Route } from "react-router-dom";
 
 
@@ -38,6 +48,16 @@ function App() {
         <Route path="/Assumption" element={<Assumption />} />
         <Route path="/Baptism" element={<Baptismoflord />} />
         <Route path="/Birth" element={<Birthofjohnthebaptist />} />
+        <Route path="/Holy family" element={<Holyfamily />} />
+        <Route path="/Epiphany" element={<Epiphany />} />
+        <Route path="/Christmas" element={<Christmas />} />
+        <Route path="/Christmasmidnight" element={<Christmasmidnight />} />
+        <Route path="/Christmasdawn" element={<Christmasdawn />} />
+        <Route path="/Christmasvigil" element={<Christmasvigil />} />
+        <Route path="/O2nd" element={<O2nd />} />
+        <Route path="/O3rd" element={<O3rd />} />
+        <Route path="/O4th" element={<O4th />} />
+        <Route path="/O5th" element={<O5th />} />
       </Routes>
     </>
   )
