@@ -81,7 +81,7 @@ const Homilies = () => {
       <tr>
         <td></td>
         <td>
-          <Link to="/Christmasmidnight">Christmas Midnight</Link>
+          Christmas Midnight
         </td>
         <td>6th</td>
         <td>23rd</td>

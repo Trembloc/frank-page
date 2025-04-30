@@ -16,7 +16,7 @@ import Birthofjohnthebaptist from './components/homily-links/Birthofjohnthebapti
 import Holyfamily from './components/homily-links/Holyfamily.jsx';
 import Epiphany from './components/homily-links/Epiphany.jsx';
 import Christmas from './components/homily-links/Christmas.jsx';
-import Christmasmidnight from './components/homily-links/Christmasmidnight.jsx';
+//import Christmasmidnight from './components/homily-links/Christmasmidnight.jsx';
 import Christmasdawn from './components/homily-links/Christmasdawn.jsx';
 import Christmasvigil from './components/homily-links/Christmasvigil.jsx';
 import O2nd from './components/homily-links/O2nd.jsx';
@@ -51,7 +51,7 @@ function App() {
         <Route path="/Holy family" element={<Holyfamily />} />
         <Route path="/Epiphany" element={<Epiphany />} />
         <Route path="/Christmas" element={<Christmas />} />
-        <Route path="/Christmasmidnight" element={<Christmasmidnight />} />
+        {/* <Route path="/Christmasmidnight" element={<Christmasmidnight />} /> */}
         <Route path="/Christmasdawn" element={<Christmasdawn />} />
         <Route path="/Christmasvigil" element={<Christmasvigil />} />
         <Route path="/O2nd" element={<O2nd />} />
