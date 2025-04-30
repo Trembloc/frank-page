@@ -1,4 +1,4 @@
-import pdfUrlChristmasmidnightA from '../../../Homilies/ChristmasBmidnight.pdf'
+/* import pdfUrlChristmasmidnightA from '../../../Homilies/ChristmasBmidnight.pdf'
 import pdfUrlChristmasmidnightB from '../../../Homilies/ChristmasBmidnighta.pdf'
 
 const Christmasmidnight = () => {
@@ -16,4 +16,4 @@ const Christmasmidnight = () => {
   )
 }
 
-export default Christmasmidnight;
+export default Christmasmidnight; */
