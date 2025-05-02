@@ -83,7 +83,9 @@ const Homilies = () => {
         <td>
           Christmas Midnight
         </td>
-        <td>6th</td>
+        <td>
+          <Link to="/O6th">6th</Link>
+        </td>
         <td>23rd</td>
         <td>Corpus Christi</td>
         <td>4th Sunday of Lent</td>
@@ -94,7 +96,9 @@ const Homilies = () => {
         <td>
           <Link to="/Christmasdawn">Christmas Dawn</Link>
         </td>
-        <td>7th</td>
+        <td>
+          <Link to="/O7th">7th</Link>
+        </td>
         <td>24th</td>
         <td>Saints Peter & Paul</td>
         <td>5th Sunday</td>
@@ -105,7 +109,9 @@ const Homilies = () => {
         <td>
           <Link to="/Christmasvigil">Christmas Vigil</Link>
         </td>
-        <td>8th</td>
+        <td>
+          <Link to="/O8th">8th</Link>
+        </td>
         <td>25th</td>
         <td>Exaltation of the Holy Cross</td>
         <td>Holy Thursday</td>
@@ -114,7 +120,9 @@ const Homilies = () => {
       <tr>
         <td></td>
         <td></td>
-        <td>9th</td>
+        <td>
+          <Link to="/O9th">9th</Link>
+        </td>
         <td>26th</td>
         <td>
           <Link to="/Allsoulsday">All Souls Day</Link>
@@ -125,7 +133,9 @@ const Homilies = () => {
       <tr>
         <td></td>
         <td></td>
-        <td>10th</td>
+        <td>
+          <Link to="/O10th">10th</Link>
+        </td>
         <td>27th</td>
         <td>OLJC, King of the Universe</td>
         <td>Holy Saturday</td>
@@ -134,7 +144,9 @@ const Homilies = () => {
       <tr>
         <td></td>
         <td></td>
-        <td>11th</td>
+        <td>
+          <Link to="/O11th">11th</Link>
+        </td>
         <td>28th</td>
         <td>
           <Link to="/Allsaints">All Saints</Link>
@@ -145,7 +157,9 @@ const Homilies = () => {
       <tr>
         <td></td>
         <td></td>
-        <td>12th</td>
+        <td>
+          <Link to="/O12th">12th</Link>
+        </td>
         <td>29th</td>
         <td></td>
         <td>Easter Sunday</td>
@@ -154,7 +168,9 @@ const Homilies = () => {
       <tr>
         <td></td>
         <td></td>
-        <td>13th</td>
+        <td>
+          <Link to="/O13th">13th</Link>
+        </td>
         <td>30th</td>
         <td></td>
         <td>2nd Sunday of Easter</td>
