@@ -34,6 +34,11 @@ import O13th from './components/homily-links/O13th.jsx';
 import O14th from './components/homily-links/O14th.jsx';
 import O15th from './components/homily-links/O15th.jsx';
 import O16th from './components/homily-links/O16th.jsx';
+import O17th from './components/homily-links/O17th.jsx';
+import O18th from './components/homily-links/O18th.jsx';
+import O19th from './components/homily-links/O19th.jsx';
+import O20th from './components/homily-links/O20th.jsx';
+import O21st from './components/homily-links/O21st.jsx';
 import { Routes, Route } from "react-router-dom";
 
 
@@ -80,6 +85,11 @@ function App() {
         <Route path="/O14th" element={<O14th />} />
         <Route path="/O15th" element={<O15th />} />
         <Route path="/O16th" element={<O16th />} />
+        <Route path="/O17th" element={<O17th />} />
+        <Route path="/O18th" element={<O18th />} />
+        <Route path="/O19th" element={<O19th />} />
+        <Route path="/O20th" element={<O20th />} />
+        <Route path="/O21st" element={<O21st />} />
       </Routes>
     </>
   )
