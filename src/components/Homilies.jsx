@@ -179,7 +179,9 @@ const Homilies = () => {
       <tr>
         <td></td>
         <td></td>
-        <td>14th</td>
+        <td>
+          <Link to="/O14th">14th</Link>
+        </td>
         <td>31st</td>
         <td></td>
         <td>3rd Sunday of Easter</td>
@@ -188,7 +190,9 @@ const Homilies = () => {
       <tr>
         <td></td>
         <td></td>
-        <td>15th</td>
+        <td>
+          <Link to="/O15th">15th</Link>
+        </td>
         <td>32nd</td>
         <td></td>
         <td>4th Sunday of Easter</td>
@@ -197,7 +201,9 @@ const Homilies = () => {
       <tr>
         <td></td>
         <td></td>
-        <td>16th</td>
+        <td>
+          <Link to="/O16th">16th</Link>
+        </td>
         <td>33rd</td>
         <td></td>
         <td>5th Sunday of Easter</td>
