@@ -42,6 +42,9 @@ import O21st from './components/homily-links/O21st.jsx';
 import O22nd from './components/homily-links/O22nd.jsx';
 import O23rd from './components/homily-links/O23rd.jsx';
 import O24th from './components/homily-links/O24th.jsx';
+import O25th from './components/homily-links/O25th.jsx';
+import O26th from './components/homily-links/O26th.jsx';
+import O27th from './components/homily-links/O27th.jsx';
 import { Routes, Route } from "react-router-dom";
 
 
@@ -96,6 +99,9 @@ function App() {
         <Route path="/O22nd" element={<O22nd />} />
         <Route path="/O23rd" element={<O23rd />} />
         <Route path="/O24th" element={<O24th />} />
+        <Route path="/O25th" element={<O25th />} />
+        <Route path="/O26th" element={<O26th />} />
+        <Route path="/O27th" element={<O27th />} />
       </Routes>
     </>
   )

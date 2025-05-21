@@ -110,7 +110,7 @@ const Homilies = () => {
           <Link to="/O7th">7th</Link>
         </td>
         <td>
-        <Link to="/O24th">24th</Link>
+          <Link to="/O24th">24th</Link>
         </td>
         <td>Saints Peter & Paul</td>
         <td>5th Sunday</td>
@@ -124,7 +124,9 @@ const Homilies = () => {
         <td>
           <Link to="/O8th">8th</Link>
         </td>
-        <td>25th</td>
+        <td>
+          <Link to="/O25th">25th</Link>
+        </td>
         <td>Exaltation of the Holy Cross</td>
         <td>Holy Thursday</td>
         <td>Transfiguration</td>
@@ -135,7 +137,9 @@ const Homilies = () => {
         <td>
           <Link to="/O9th">9th</Link>
         </td>
-        <td>26th</td>
+        <td>
+          <Link to="/O26th">26th</Link>
+        </td>
         <td>
           <Link to="/Allsoulsday">All Souls Day</Link>
         </td>
@@ -148,7 +152,9 @@ const Homilies = () => {
         <td>
           <Link to="/O10th">10th</Link>
         </td>
-        <td>27th</td>
+        <td>
+          <Link to="/O27th">27th</Link>
+        </td>
         <td>OLJC, King of the Universe</td>
         <td>Holy Saturday</td>
         <td></td>
