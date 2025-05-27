@@ -52,6 +52,11 @@ import O31st from './components/homily-links/O31th.jsx';
 import O32nd from './components/homily-links/O32th.jsx';
 import O33rd from './components/homily-links/O33th.jsx';
 import O34th from './components/homily-links/O34th.jsx';
+import Oljckingoftheuniverse from './components/homily-links/Oljckingoftheuniverse.jsx';
+import PalmSunday from './components/homily-links/Palmsunday.jsx';
+import Pentecost from './components/homily-links/Pentacost.jsx';
+import PentecostVigil from './components/homily-links/Pentacostsunday.jsx';
+import Presentation from './components/homily-links/Presentation.jsx';
 import { Routes, Route } from "react-router-dom";
 
 
@@ -116,6 +121,11 @@ function App() {
         <Route path="/O32nd" element={<O32nd />} />
         <Route path="/O33rd" element={<O33rd />} />
         <Route path="/O34th" element={<O34th />} />
+        <Route path="/OLJC" element={<Oljckingoftheuniverse />} />
+        <Route path="/PalmSunday" element={<PalmSunday />} />
+        <Route path="/PentecostSunday" element={<Pentecost/>} />
+        <Route path="/PentecostVigil" element={<PentecostVigil/>} />
+        <Route path="/Presentation" element={<Presentation/> } />
       </Routes>
     </>
   )
