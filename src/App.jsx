@@ -57,6 +57,8 @@ import PalmSunday from './components/homily-links/Palmsunday.jsx';
 import Pentecost from './components/homily-links/Pentacost.jsx';
 import PentecostVigil from './components/homily-links/Pentacostsunday.jsx';
 import Presentation from './components/homily-links/Presentation.jsx';
+import SacredHeart from './components/homily-links/Sacredheart.jsx';
+import PandP from './components/homily-links/Saintspeterandpaul.jsx';
 import { Routes, Route } from "react-router-dom";
 
 
@@ -126,6 +128,8 @@ function App() {
         <Route path="/PentecostSunday" element={<Pentecost/>} />
         <Route path="/PentecostVigil" element={<PentecostVigil/>} />
         <Route path="/Presentation" element={<Presentation/> } />
+        <Route path="/Sacredheart" element={<SacredHeart/> } />
+        <Route path="/PandP" element={<PandP/> } />
       </Routes>
     </>
   )
