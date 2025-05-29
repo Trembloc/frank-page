@@ -15,7 +15,7 @@ const PandP = () => {
         <iframe id="pdf" src={pdfUrlPeterPaulAa} frameborder="0"></iframe>
       </section>
       <section>
-        <h2>Peter and Paul: Year BG</h2>
+        <h2>Peter and Paul: Year B</h2>
         <iframe id="pdf" src={pdfUrlPeterPaulAb} frameborder="0"></iframe>
       </section>
     </>

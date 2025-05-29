@@ -211,7 +211,9 @@ const Homilies = () => {
           <Link to="/O30th">30th</Link>
         </td>
         <td></td>
-        <td>2nd Sunday of Easter</td>
+        <td>
+          <Link to="/easter2">2nd Sunday of Easter</Link>
+        </td>
         <td></td>
       </tr>
       <tr>
@@ -224,7 +226,9 @@ const Homilies = () => {
           <Link to="/O31st">31th</Link>
         </td>
         <td></td>
-        <td>3rd Sunday of Easter</td>
+        <td>
+          <Link to="/easter3">3rd Sunday of Easter</Link>
+        </td>
         <td></td>
       </tr>
       <tr>
