@@ -61,6 +61,11 @@ import SacredHeart from './components/homily-links/Sacredheart.jsx';
 import PandP from './components/homily-links/Saintspeterandpaul.jsx';
 import Easter2 from './components/homily-links/Secondofeastersunday.jsx';
 import Easter3 from './components/homily-links/Thirdofeastersunday.jsx';
+import FirstLent from './components/homily-links/Firstsundayoflent.jsx';
+import FifthLent from './components/homily-links/Fifthsundayoflent.jsx';
+import ThirdLent from './components/homily-links/Thirdsundayoflent.jsx';
+import SecondLent from './components/homily-links/Secondsundayoflent.jsx';
+import FourthLent from './components/homily-links/Fourthsundayoflent.jsx';
 import { Routes, Route } from "react-router-dom";
 
 
@@ -134,6 +139,11 @@ function App() {
         <Route path="/PandP" element={<PandP/> } />
         <Route path="/easter2" element={<Easter2 /> } />
         <Route path="/easter3" element={<Easter3 /> } />
+        <Route path="/FirstLent" element={<FirstLent /> } />
+        <Route path="/FifthLent" element={<FifthLent /> } />
+        <Route path="/ThirdLent" element={<ThirdLent /> } />
+        <Route path="/SecondLent" element={<SecondLent /> } />
+        <Route path="/FourthLent" element={<FourthLent /> } />
       </Routes>
     </>
   )

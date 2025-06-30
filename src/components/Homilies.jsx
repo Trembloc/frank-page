@@ -51,7 +51,9 @@ const Homilies = () => {
         <td>
           <Link to="/PentecostVigil">Pentacost Vigil</Link>
         </td>
-        <td>1st Sunday of Lent</td>
+        <td>
+          <Link to="/FirstLent">First Sunday of Lent</Link>
+        </td>
         <td>
           <Link to="/Birth">Birth of John the Baptist</Link>
         </td>
@@ -72,7 +74,9 @@ const Homilies = () => {
         <td>
           <Link to="/PentecostSunday">Pentecost Sunday</Link>
         </td>
-        <td>2nd Sunday Of Lent</td>
+        <td>
+          <Link to="/SecondLent">Second Sunday of Lent</Link>
+        </td>
         <td>Funerals</td>
       </tr>
       <tr>
@@ -89,7 +93,9 @@ const Homilies = () => {
           <Link to="/O22nd">22nd</Link>
         </td>
         <td>The Most Holy Trinity</td>
-        <td>3rd Sunday of Lent</td>
+        <td>
+          <Link to="/ThirdLent">Third Sunday of Lent</Link>
+        </td>
         <td>Mary Mother of God</td>
       </tr>
       <tr>
@@ -104,7 +110,9 @@ const Homilies = () => {
           <Link to="/O23rd">23rd</Link>
         </td>
         <td>Corpus Christi</td>
-        <td>4th Sunday of Lent</td>
+        <td>
+          <Link to="/FourthLent">Fourth Sunday of Lent</Link>
+        </td>
         <td>
           <Link to="/Sacredheart">Sacred Heart</Link>
         </td>
@@ -123,7 +131,9 @@ const Homilies = () => {
         <td>
           <Link to="/PandP">Saints Peter and Paul</Link>
         </td>
-        <td>5th Sunday</td>
+        <td>
+          <Link to="/FifthLent">Fifth Sunday of Lent</Link>
+        </td>
         <td>Thanksgiving</td>
       </tr>
       <tr>
