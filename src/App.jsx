@@ -66,6 +66,21 @@ import FifthLent from './components/homily-links/Fifthsundayoflent.jsx';
 import ThirdLent from './components/homily-links/Thirdsundayoflent.jsx';
 import SecondLent from './components/homily-links/Secondsundayoflent.jsx';
 import FourthLent from './components/homily-links/Fourthsundayoflent.jsx';
+import Easter7 from './components/homily-links/Seventhofeastersunday.jsx';
+import Easter4 from './components/homily-links/Fourthofeastersunday.jsx';
+import Easter5 from './components/homily-links/Fifthofeastersunday.jsx';
+import Easter6 from './components/homily-links/Sixthofeastersunday.jsx';
+import Easter from './components/homily-links/Eastersunday.jsx';
+import Funerals from './components/homily-links/Funerals.jsx';
+import MaryMotherOfGod from './components/homily-links/Marymotherofgod.jsx';
+import Thanksgiving from './components/homily-links/Thanksgiving.jsx';
+import Transfiguration from './components/homily-links/Transfiguration.jsx';
+import HolySaturdayMornPrayer from './components/homily-links/Holysaturday.jsx';
+import GoodFriday from './components/homily-links/Goodfriday.jsx';
+import HolyThursday from './components/homily-links/Holythursday.jsx';
+import TrinitySunday from './components/homily-links/Themostholytrinity.jsx';
+import CorpusChristi from './components/homily-links/Corpuschristi.jsx';
+import Exaltation from './components/homily-links/Exaltationoftheholycross.jsx';
 import { Routes, Route } from "react-router-dom";
 
 
@@ -144,6 +159,21 @@ function App() {
         <Route path="/ThirdLent" element={<ThirdLent /> } />
         <Route path="/SecondLent" element={<SecondLent /> } />
         <Route path="/FourthLent" element={<FourthLent /> } />
+        <Route path="/easter7" element={<Easter7 /> } />
+        <Route path="/easter4" element={<Easter4 /> } />
+        <Route path="/easter5" element={<Easter5/> } />
+        <Route path="/easter6" element={<Easter6/> } />
+        <Route path="/easter" element={<Easter/> } />
+        <Route path="/Funerals" element={<Funerals/> } />
+        <Route path="/MMG" element={<MaryMotherOfGod/> } />
+        <Route path="/Thanksgiving" element={<Thanksgiving/> } />
+        <Route path="/Transfiguration" element={<Transfiguration/> } />
+        <Route path="/HolySaturday" element={<HolySaturdayMornPrayer/> } />
+        <Route path="/GoodFriday" element={<GoodFriday/> } />
+        <Route path="/HolyThursday" element={<HolyThursday/> } />
+        <Route path="/TrinitySunday" element={<TrinitySunday/> } />
+        <Route path="/CorpusChristi" element={<CorpusChristi/> } />
+        <Route path="/Exaltation" element={<Exaltation/> } />
       </Routes>
     </>
   )
